@@ -8,7 +8,7 @@ st.subheader('Slider')
 age=st.slider('How old are you?', 0, 130, 25)
 st.write('I am', age, 'years old')
 
-st.subheader('Renge slider')
+st.subheader('Range slider')
 
 values = st.slider(
     'Select a range of values',
