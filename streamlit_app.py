@@ -4,7 +4,7 @@ import numpy as np
 
 st.header ('Line chart')
 
-chart data = pd.DataFrame(
+chart_data = pd.DataFrame(
   np.random.randn(20,3),
   columns=['viens','divi','tris'])
 
