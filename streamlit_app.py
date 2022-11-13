@@ -9,3 +9,12 @@ chart_data = pd.DataFrame(
   columns=['viens','divi','tris'])
 
 st.line_chart(chart_data)
+
+#################################
+
+st.header('st.selectbox')
+
+option = st.selectbox(
+  'Kāda ir Tava mīļākā krāsa?',
+  ('Zaļa','Zila','Sarkana'))
+
