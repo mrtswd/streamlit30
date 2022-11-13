@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from pandas_profiling import ProfileReport
+import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 
 st.header('`streamlit_pandas_profiling`')
