@@ -80,3 +80,7 @@ if kafija:
 
 if cola:
   st.write("Saņemiet 🥤")
+
+
+#################################
+
