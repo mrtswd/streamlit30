@@ -66,4 +66,17 @@ st.write('You selected:', options)
 
 #################################
 
+st.header('st.checkbox')
+st.write ('Ko Jūs gribētu pasūtīt?')
+saldejums = st.checkbox('Saldējums')
+kafija = st.checkbox('Kafija')
+cola = st.checkbox('Cola')
 
+if saldejums:
+  st.write("Lieliski, te būs 🍦")
+
+if kafija:
+  st.write("Jūsu gardā ☕ jau klāt!")
+
+if cola:
+  st.write("Saņemiet 🥤")
