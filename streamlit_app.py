@@ -18,3 +18,13 @@ option = st.selectbox(
   'Kāda ir Tava mīļākā krāsa?',
   ('Zaļa','Zila','Sarkana'))
 
+
+st.header('st.multiselect')
+
+options = st.multiselect(
+  'Kāda ir Tavas mīļākās krāsas, vairākas',
+  ['Melna','Sarkana','Zaļa','Zila'],
+  ['Dzeltena','Brūna']
+)
+
+st.write('Tu izvēlējies:', options)
